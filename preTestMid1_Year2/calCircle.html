@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form method="GET" action="calCircle.php">
+            <table>
+                <tr>
+                    <td colspan="2" align="center">
+                        เครื่องคำนวนวงกลมแหละทรงกลม 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        รัศมี : 
+                    </td>
+                    <td>
+                        <input type="text" name="Number"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        เลือกการคำนวณ : 
+                    </td>
+                    <td>
+                        <select name="cir"> 
+                            
+                            <option> รัศมี</option>
+                            <option> เส้นรอบวง</option>
+                            <option> เส้นผ่าศุูนย์กลาง</option>
+                            <option> พื้นที่วงกลม</option>
+                            <option> พื้นที่ผิวของทรงกลม</option>
+                            <option> ปริมาตรของทรงกลม</option>
+                        </select>
+                    </td>
+                </tr>
+  
+            </table>                  
+            <input type="submit" name = "submit" value=" OK " style="color:white; background-color:#4CAF50; border :none; border-radius:4px; padding:10px 20px;"/>
+            <input type="reset" name = "submit" value=" Clear " style="color:white; background-color:#b83a3a; border :none; border-radius:4px; padding:10px 20px;"/>
+        </form>
+    </center>
+</body>
+</html>
