@@ -18,18 +18,17 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="index.php">Back</a>
       </nav>
-
-    <div class="login-page">
-        <div class="form">
-            <form class="login-form">
-            <h2> Login Staff</h2>
-            <br>
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button>login</button>
-            
-          </form>
+      <div class="login-page">
+          <div class="form">
+              <form class="login-form">
+              <h2> Login Staff</h2>
+              <br>
+              <input type="text" name="user" placeholder="username"/>
+              <input type="password" name="pass" placeholder="password"/>
+              <button>login</button>
+              
+            </form>
+          </div>
         </div>
-      </div>
 </body>
 </html>

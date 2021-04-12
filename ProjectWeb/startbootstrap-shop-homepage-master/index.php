@@ -21,6 +21,7 @@
 <body style="font-family: FC Home;font-size: 24px;">
 
   <!-- Navigation -->
+  <form method="GET">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="in">BT Carrent</a>
@@ -34,18 +35,21 @@
 
               $user = @$_SESSION['user'];
               $ck = @$_SESSION['check'];
+              
+              if($user == ""){
 
-              if($ck == 1){
-                
+              }
+              else if($ck == 1 ){
                 echo "<li class='nav-item active'>
                           <a class='nav-link'> 
-                             ยินดีตอนรับคุณ : $user 
+                            ยินดีตอนรับคุณ : $user 
                             </a>
                       </li>";
-                session_destroy();
-              }
-              else{
-                
+                echo "<li class='nav-item active'>
+                      <a class='nav-link' href=logout.php > 
+                        logout
+                        </a>
+                  </li>";
               }
             ?>
           
@@ -66,7 +70,7 @@
       </div>
     </div>
   </nav>
-
+            </form>
   <!-- Page Content -->
   <div class="container">
 

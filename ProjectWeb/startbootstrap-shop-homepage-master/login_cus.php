@@ -19,17 +19,19 @@
         <a class="navbar-brand" href="index.php">Back</a>
       </nav>
 
-    <div class="login-page">
-        <div class="form">
-            <form class="login-form">
-            <h2> Login customer</h2>
-            <br>
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button>login</button>
-            
-          </form>
+  <form action="check_login.php" method="GET">
+      <div class="login-page">
+          <div class="form">
+              <form class="login-form">
+              <h2> Login customer</h2>
+              <br>
+              <input type="text" name="user" placeholder="username"/>
+              <input type="password" name="pass" placeholder="password"/>
+              <button>login</button>
+              
+              </form>
+          </div>
         </div>
-      </div>
+</form>
 </body>
 </html>
