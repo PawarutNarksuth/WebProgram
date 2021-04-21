@@ -21,10 +21,10 @@
 
     $customer = mysqli_fetch_array($result);
 
-    @$_SESSION['user'] = $customer[2];
+    @$_SESSION['user'] = $customer[3];
     @$_SESSION['check'] = 1; 
 
-    if($customer[2] != $user && $customer[3] != $pass){
+    if($customer[3] != $user && $customer[4] != $pass){
         @$_SESSION['check'] = 2;
     }
     $conn->close();

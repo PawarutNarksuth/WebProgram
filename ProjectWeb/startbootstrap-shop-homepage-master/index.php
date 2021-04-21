@@ -69,9 +69,7 @@
             <a class="nav-link" href="login.php">Login Staff</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">Rent</a>
-          </li>
+          
         </ul>
       </div>
     </div>
