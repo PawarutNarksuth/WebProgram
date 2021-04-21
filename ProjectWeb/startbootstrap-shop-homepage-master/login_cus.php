@@ -23,7 +23,7 @@
       <div class="login-page">
           <div class="form">
               <form class="login-form">
-              <h2> Login customer</h2>
+              <h2> ล็อกอิน </h2>
               <br>
               <input type="text" name="user" placeholder="username"/>
               <input type="password" name="pass" placeholder="password"/>

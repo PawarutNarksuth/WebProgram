@@ -22,7 +22,7 @@
         <div class="login-page">
             <div class="form">
                 <form class="login-form">
-                <h2> Login Staff</h2>
+                <h2> ล็อกอินพนักงาน </h2>
                 <br>
                 <?php
                 session_start();

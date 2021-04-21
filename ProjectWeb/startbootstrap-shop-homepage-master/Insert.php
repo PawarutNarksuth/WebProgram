@@ -4,6 +4,7 @@
     $us = $_GET['username'];
     $pass = $_GET['password'];
     $tel = $_GET['tel'];
+    $mail = $_GET['mail'];
 
     $hostname = "localhost";
     $username = "root";
@@ -23,8 +24,8 @@
 
     mysqli_select_db($conn , $dbname) or die ("can't select departmentstore database");
 
-    $sql = "INSERT INTO customer(F_name,L_name,username,pass,tel)
-            VALUES  ('$F_name' ,  '$L_name' , '$us' , '$pass' , '$tel' )";
+    $sql = "INSERT INTO customer(email,F_name,L_name,username,pass,tel)
+            VALUES  ('$mail','$F_name' ,  '$L_name' , '$us' , '$pass' , '$tel')";
 
     mysqli_query($conn , $sql);
 

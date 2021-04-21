@@ -66,7 +66,7 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="login.php">Loin Staff</a>
+            <a class="nav-link" href="login.php">Login Staff</a>
           </li>
 
           <li class="nav-item">
@@ -88,7 +88,7 @@
         <div class="list-group">
           <a href="create_cus.php" class="list-group-item">สมัครสมาชิก</a>
           <a href="login_cus.php" class="list-group-item">ล๊อกอิน</a>
-          <a href="#" class="list-group-item">ติอต่อเรา</a>
+          <a href="contect.php" class="list-group-item">ติดต่อเรา</a>
         </div>
 
       </div>
@@ -128,10 +128,10 @@
           
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/4.png" alt=""></a>
+              <a href="#"><img class="card-img-top" src="images/bikered.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">จักยาน</a>
+                  <a href="#">จักรยาน</a>
                 </h4>
                 <h5>200 Bath / Half Day</h5>
                 <h5>300 Bath / Full Day</h5>
@@ -146,7 +146,7 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/5.jpg" alt=""></a>
+              <a href="#"><img class="card-img-top" src="images/redcar.png" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">รถเก๋ง</a>
@@ -165,7 +165,7 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/6.jpg" alt=""></a>
+              <a href="#"><img class="card-img-top" src="images/kabared.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">รถตู้</a>
@@ -199,7 +199,7 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/8.jpg" alt=""></a>
+              <a href="#"><img class="card-img-top" src="images/wavered.png" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">จักยานยนต์</a>

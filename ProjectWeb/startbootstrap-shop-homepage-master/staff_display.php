@@ -34,6 +34,8 @@
                     #
                 </td>
                 <td>
+                    อีเมล
+                <td>
                     ชื่อ
                 </td>
                 <td>
@@ -72,7 +74,7 @@
                 while($cus = mysqli_fetch_array($result))
                 {
                     echo '<tr><td>'.$count.'</td><td>'.$cus[0].'</td><td>'.$cus[1].'</td><td>'.$cus[2].'</td><td>'.$cus[3].'</td>
-                    <td>'.$cus[4].'</td><td><a href=edit.php>Edit</a></td></tr>';
+                    <td>'.$cus[4].'</td><td>'.$cus[5].'</td><td><a href=edit.php?customer_user='.$cus[3].'>Edit</a></td></tr>';
                     $count++;
                 }
             ?>

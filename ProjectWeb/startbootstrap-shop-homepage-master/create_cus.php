@@ -34,6 +34,8 @@
                     <input type="text" placeholder="last name" name="L_name">
                     เบอร์
                     <input type="text" placeholder="tel" name="tel">
+                    อีเมล
+                    <input type="text" placeholder="email" name="mail">
                     <button style="width: 100px;">login</button>
                     <input type="reset" name="clear" style="width: 100px;background-color: rgb(245, 48, 22);color: white;">
                 </form>
