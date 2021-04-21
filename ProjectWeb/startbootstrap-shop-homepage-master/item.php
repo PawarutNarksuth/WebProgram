@@ -76,26 +76,19 @@
       </div>
     </div>
   </nav>
-  
-  <div class="container">
-    <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/bikered.jpg" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">จักรยาน</a>
-                </h4>
-                <h5>200 Bath / Half Day</h5>
-                <h5>300 Bath / Full Day</h5>
-                <br>
-                <p class="card-text">เหมาะสำหรับผู้ที่ต้องการท่องเที่ยวในสถานที่ใกล้ๆ และรับชมบรรยากาศ</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-    </div>              
+  <div class="container" style="position: relative; pandding : 20;">
+<?php if(true){;?>
+    <select name="type" id="">
+        <option value="">แม่บ้าน</option>
+        <option value="">เสือภูเขา</option>
+        <option value="">รุ่นเล็ก</option>
+        <option value="">ปั่นพร้อมกัน</option>
+
+    </select>
+
+
+<?php }?>
+  </div>
 
        
 
