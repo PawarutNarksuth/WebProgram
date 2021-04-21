@@ -6,4 +6,8 @@
 body {
   padding-top: 56px;
 }
+.sc .card h-100{
+  width: 100px;
+}
+
 

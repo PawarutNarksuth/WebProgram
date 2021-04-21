@@ -74,7 +74,7 @@
       </div>
     </div>
   </nav>
-            </form>
+  </form>
   <!-- Page Content -->
   <div class="container">
 
@@ -122,14 +122,15 @@
         </div>
         <h2> ประเภทยานพาหนะ</h2>
         <hr>
+        
         <div class="row">
           
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/bikered.jpg" alt=""></a>
+              <a href="item.php?all=bike"><img class="card-img-top" src="images/bikered.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">จักรยาน</a>
+                  <a href="item.php?all=bike">จักรยาน</a>
                 </h4>
                 <h5>200 Bath / Half Day</h5>
                 <h5>300 Bath / Full Day</h5>
@@ -144,10 +145,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/redcar.png" alt=""></a>
+              <a href="item.php?all=car"><img class="card-img-top" src="images/redcar.png" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">รถเก๋ง</a>
+                  <a href="item.php?all=car">รถเก๋ง</a>
                 </h4>
                 <h5>600 Bath / Day</h5>
                 <h5>4,200 Bath / Week</h5>
@@ -163,10 +164,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/kabared.jpg" alt=""></a>
+              <a href="item.php?all=kaba"><img class="card-img-top" src="images/kabared.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">รถกระบะ</a>
+                  <a href="item.php?all=kaba">รถกระบะ</a>
                 </h4>
                 <h5>2500 Bath / Day </h5>
                 <h5>17,000 Bath / week </h5>
@@ -181,10 +182,10 @@
           
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/7.jpg" alt=""></a>
+              <a href="item.php?all=van"><img class="card-img-top" src="images/7.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">รถตู้</a>
+                  <a href="item.php?all=van">รถตู้</a>
                 </h4>
                 <h5>$24.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -197,10 +198,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/wavered.png" alt=""></a>
+              <a href="item.php?all=morto"><img class="card-img-top" src="images/wavered.png" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">จักยานยนต์</a>
+                  <a href="item.php?all=morto">จักยานยนต์</a>
                 </h4>
                 <h5>350 - 650 Bath / Day </h5>
                 <h5>10,000 Bath / Mont </h5>
@@ -215,10 +216,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="item.php?all=mini"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">มินิบัส</a>
+                  <a href="item.php?all=mini">มินิบัส</a>
                 </h4>
                 <h5>$24.99</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
