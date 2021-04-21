@@ -166,7 +166,7 @@
               <a href="#"><img class="card-img-top" src="images/kabared.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">รถตู้</a>
+                  <a href="#">รถกระบะ</a>
                 </h4>
                 <h5>2500 Bath / Day </h5>
                 <h5>17,000 Bath / week </h5>
@@ -178,7 +178,7 @@
               </div>
             </div>
           </div>
-          <!--
+          
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="images/7.jpg" alt=""></a>
@@ -193,7 +193,7 @@
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
               </div>
             </div>
-          </div>-->
+          </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
