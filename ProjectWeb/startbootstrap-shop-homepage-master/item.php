@@ -475,7 +475,9 @@
     <div class="row">
       
       <div class="col-lg-4">
+      <label>
         <div class="card" style="width:300px;">
+        <input type="radio" hidden name = "car_model" value="cago var" id="opt">
           <center>
             <img src="images/cargo.png" style="width:170px;">
             <div class="container">
@@ -484,11 +486,14 @@
             </div>
           </center>
         </div>
+        </label>
       </div>
   
       <div class="col-lg-4">
+      <label>
         <div class="card" style="width:300px;">
-          <center>
+            <input type="radio" hidden name = "car_model" value="volkswagen" id="opt">
+            <center>
             <img src="images/vw.png" style="width:170px;">
               <div class="container">
                 <h4><b>volkswagen</b></h4>
@@ -496,12 +501,15 @@
               </div>
           </center>
         </div>
+        <label>
       </div>
   
         
       <div class="col-lg-4">
-        <div class="card" style="width:300px;">
-          <center>
+      <label>
+            <div class="card" style="width:300px;">
+            <input type="radio" hidden name = "car_model" value="alphard van" id="opt" >
+            <center>
             <img src="images/al.png" style="width:170px;">
             <div class="container">
               <h4><b>alphard van </b></h4>
@@ -509,6 +517,7 @@
             </div>
           </center>
         </div>
+        <label>
       </div>
   
       </div>
@@ -566,7 +575,7 @@
       <div class="col-lg-4">
         <label>
             <div class="card" style="width:300px;">
-            <input type="radio" hidden name = "car_model" value="1" id="opt">
+            <input type="radio" hidden name = "car_model" value="wave125i" id="opt">
             <center>
                 <img src="images/wave125.png" style="width:300px;">
                 <div class="container">
@@ -581,7 +590,7 @@
       <div class="col-lg-4">
         <label>
             <div class="card" style="width:300px;">
-                <input type="radio" hidden name = "car_model" value="2" id="opt">
+                <input type="radio" hidden name = "car_model" value="pcx" id="opt">
                 <center>
                 <img src="images/pcx.png" style="width:200px;">
                     <div class="container">
@@ -597,7 +606,7 @@
       <div class="col-lg-4">
         <label>
             <div class="card" style="width:300px;">
-                <input type="radio" hidden name = "car_model" value="3" id="opt">
+                <input type="radio" hidden name = "car_model" value="msx" id="opt">
                 <center>
                 <img src="images/msx.png" style="width:300px;">
                 <div class="container">
@@ -661,7 +670,7 @@
         <div class="col-lg-4">
             <label>
                 <div class="card" style="width:300px;">
-                <input type="radio" hidden name = "car_model" value="1" id="opt">
+                <input type="radio" hidden name = "car_model" value="standard minibus" id="opt">
                 <center>
                     <img src="images/mini1.png" style="width:170px;">
                     <div class="container">
@@ -676,7 +685,7 @@
         <div class="col-lg-4">
             <label>
                 <div class="card" style="width:300px;">
-                <input type="radio" hidden name = "car_model" value="2" id="opt">
+                <input type="radio" hidden name = "car_model" value="business minibus" id="opt">
                 <center>
                     <img src="images/mini2.png" style="width:170px;">
                     <div class="container">
@@ -691,7 +700,7 @@
         <div class="col-lg-4">
             <label>
                 <div class="card" style="width:300px;">
-                <input type="radio" hidden name = "car_model" value="3" id="opt">
+                <input type="radio" hidden name = "car_model" value="normal minibus" id="opt">
                 <center>
                     <img src="images/mini3.png" style="width:170px;">
                     <div class="container">
