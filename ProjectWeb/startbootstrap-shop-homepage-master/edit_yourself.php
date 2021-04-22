@@ -37,7 +37,7 @@
         
         <form action="procress_yourself.php" method="GET">
         <div style="background-color: #f2f2f2;width: 900px;border-radius: 10px;color: black;padding: 20px" >
-            <table style="width:650px;" id="table1">
+            <table style="width:700px;" id="table1">
                 <tr>
                     <td>
                         <h3>แก้ไขข้อมูล</h3>
@@ -64,8 +64,8 @@
                     $result = mysqli_query($conn , $sql);
 
                     $cus = mysqli_fetch_array($result);
-                    echo '<tr> <td> Username : </td> <td> <input type=text value='.$cus[3].' name=user></td value=> ';
-                    echo '<td> password : </td> <td> <input type=password name=pass></td> </tr>';
+                    echo '<tr> <td> Username : <div style=color:red;>(ไม่สามารถแก้ไขได้)</div> </td> <td> <input type=text value='.$cus[3].' name=user disabled></td value=> ';
+                    echo '<td> password : </td> <td> <input type=password name=pass value='.$cus[4].'></td> </tr>';
                     echo '<tr> <td> First Name : </td> 
                                 <td> <input type=text value='.$cus[1].' name=fname></td> 
                                 <td > Last Name : </td> <td><input type=text value='.$cus[2].' name=lname></td>

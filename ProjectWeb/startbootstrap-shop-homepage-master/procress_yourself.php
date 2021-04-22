@@ -1,4 +1,7 @@
 <?php
+    session_start();
+    $use_sess = @$_SESSION['user'];
+
     $use =  $_GET['user'];
     $pass =  $_GET['pass'];
     $fname =  $_GET['fname'];
@@ -19,7 +22,7 @@
     mysqli_select_db($conn , $dbname) or die ("can't select departmentstore database"); //connect เข้า database ได้ไหม
 
     $sql = "UPDATE `customer` SET `Email`='$email',`F_name`='$fname',`L_name`='$lname',
-            `username`='$use',`pass`='$pass',`tel`='$tel' ";
+            `username`='$use',`pass`='$pass',`tel`='$tel' WHERE username = '$use_sess'";
 
     $result = mysqli_query($conn , $sql);
     
