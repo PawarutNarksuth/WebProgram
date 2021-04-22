@@ -84,9 +84,14 @@
 
         <h1 class="my-4">Shop Name</h1>
         <div class="list-group">
+        <?php if($ck == 1 ){ ?>
+          <a href="#" class="list-group-item">แก้ไขข้อมูล</a>
+          <a href="contect.php" class="list-group-item">ติดต่อเรา</a>  
+        <?php }else{ ?>
           <a href="create_cus.php" class="list-group-item">สมัครสมาชิก</a>
           <a href="login_cus.php" class="list-group-item">ล๊อกอิน</a>
           <a href="contect.php" class="list-group-item">ติดต่อเรา</a>
+        <?php }?>
         </div>
 
       </div>
@@ -150,7 +155,7 @@
                 <h4 class="card-title">
                   <a href="item.php?all=car">รถเก๋ง</a>
                 </h4>
-                <h5>600 Bath / Day</h5>
+                <h5>1,500 Bath / Day</h5>
                 <h5>4,200 Bath / Week</h5>
                 <h5>13,000 Bath / Mont</h5>
                 
@@ -169,8 +174,9 @@
                 <h4 class="card-title">
                   <a href="item.php?all=kaba">รถกระบะ</a>
                 </h4>
-                <h5>2500 Bath / Day </h5>
-                <h5>17,000 Bath / week </h5>
+                <h5>2,500 Bath / Day </h5>
+                <h5>17,000 Bath / Week </h5>
+                <h5>75,000 Bath / Mount </h5>
                 <br>
                 <p class="card-text">เหมาะสำหรับผู้มาเป็นครอบครัวใหญ่ หรือ ผู้มาสมนาเป็นหมู่คณะ</p>
               </div>
@@ -187,7 +193,9 @@
                 <h4 class="card-title">
                   <a href="item.php?all=van">รถตู้</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>3,000 Bath / Day </h5>
+                <h5>21,500 Bath / Week </h5>
+                <h5>90,000 Bath / Mount </h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer">
@@ -221,7 +229,9 @@
                 <h4 class="card-title">
                   <a href="item.php?all=mini">มินิบัส</a>
                 </h4>
-                <h5>$24.99</h5>
+                <h5>3,500 Bath / Day </h5>
+                <h5>24,500 Bath / Week </h5>
+                <h5>105,000 Bath / Mount </h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer">
