@@ -85,7 +85,7 @@
         <h1 class="my-4">Shop Name</h1>
         <div class="list-group">
         <?php if($ck == 1 ){ ?>
-          <a href="#" class="list-group-item">แก้ไขข้อมูล</a>
+          <a href="edit_yourself.php" class="list-group-item">แก้ไขข้อมูล</a>
           <a href="contect.php" class="list-group-item">ติดต่อเรา</a>  
         <?php }else{ ?>
           <a href="create_cus.php" class="list-group-item">สมัครสมาชิก</a>
@@ -224,7 +224,7 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="item.php?all=mini"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="item.php?all=mini"><img class="card-img-top" src="images/mini.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="item.php?all=mini">มินิบัส</a>
