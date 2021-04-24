@@ -179,7 +179,7 @@
             <input type="radio" hidden name = "car_model" value="จักรยานแม่บ้าน" id="opt">
             <center>
             <img src="images/bikered.jpg" style="width:170px;">
-            <input type="text" name="pic_car" value="bikered.png" hidden>
+            <input type="text" name="pic_car" value="bikered.jpg" hidden>
             <div class="container">
                 <h4><b>จักรยานแม่บ้าน</b></h4>
                 <p>มีตะกร้าหรือเบาะนั่งเพิ่มเติม</p>
@@ -211,7 +211,7 @@
             <input type="radio" hidden name = "car_model" value="จักรยานเสือหมอบ" id="opt" >
             <center>
             <img src="images/bliketiger.jpg" style="width:170px;">
-            <input type="text" name="pic_car" value="bliketiger.png" hidden>
+            <input type="text" name="pic_car" value="bliketiger.jpg" hidden>
             <div class="container">
                 <h4><b>จักรยานเสือหมอบ</b></h4>
                 <p>ใช้งานบนถนนเรียบทำความเร็วได้ถึง 50-60 km/h</p>
