@@ -82,7 +82,7 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Shop Name</h1>
+        <h1 class="my-4">Menu</h1>
         <div class="list-group">
         <?php if($ck == 1 ){ ?>
           <a href="edit_yourself.php" class="list-group-item">แก้ไขข้อมูล</a>
