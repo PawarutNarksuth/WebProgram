@@ -28,7 +28,7 @@
     <h1> ฐานข้อมูลลูกค้าทั้งหมด </h1>
     <br>
     <center>
-        <table border="solid 2" style="width:600px;text-align:center;">
+        <table border="solid 2" style="width:680px;text-align:center;">
             <tr>
                 <td>
                     #
@@ -53,6 +53,9 @@
                 <td>
                     Edit
                 </td>
+                <td>
+                    Delete
+                </td>
             </tr>
             <?php
                 $hostname = "localhost";
@@ -74,7 +77,8 @@
                 while($cus = mysqli_fetch_array($result))
                 {
                     echo '<tr><td>'.$count.'</td><td>'.$cus[0].'</td><td>'.$cus[1].'</td><td>'.$cus[2].'</td><td>'.$cus[3].'</td>
-                    <td>'.$cus[4].'</td><td>'.$cus[5].'</td><td><a href=edit.php?customer_user='.$cus[3].'>Edit</a></td></tr>';
+                    <td>'.$cus[4].'</td><td>'.$cus[5].'</td><td><a href=edit.php?customer_user='.$cus[3].'>Edit</a></td>
+                    <td><a href=procress_delete.php?customer_user='.$cus[3].'>Delete</a></td></tr>';
                     $count++;
                 }
             ?>
@@ -115,6 +119,9 @@
             <td>
                 Edit
             </td>
+            <td>
+                Delete
+            </td>
         </tr>
     <?php
                 $sql1 = "SELECT * FROM booking";
@@ -123,9 +130,13 @@
                 while($cus = mysqli_fetch_array($result1))
                 {
                     echo '<tr><td>'.$count1.'</td><td>'.$cus[0].'</td><td>'.$cus[1].'</td><td>'.$cus[2].'</td><td>'.$cus[3].'</td>
-                    <td>'.$cus[4].'</td><td>'.$cus[5].'</td><td>'.$cus[6].'</td><td>'.$cus[7].'</td><td><a href=edit.php?customer_user='.$cus[3].'>Edit</a></td></tr>';
+                    <td>'.$cus[4].'</td><td>'.$cus[5].'</td><td>'.$cus[6].'</td><td>'.$cus[7].'</td><td><a href=edit_book.php?cus_no='.$cus[0].'>Edit</a></td>
+                    <td><a href=procress_delete_rent.php?customer_user='.$cus[0].'>Delete</a></td></tr>';
+                    
                     $count1++;
                 }
+
+                
     ?>
     </table>
     </center>
@@ -173,7 +184,7 @@
             </td>
         </tr>
     <?php
-        $ck_user = $_GET['user'];
+        @$ck_user = $_GET['user'];
 
                 $sql2 = "SELECT * FROM booking WHERE user = '$ck_user'";
                 $result2 = mysqli_query($conn , $sql2);

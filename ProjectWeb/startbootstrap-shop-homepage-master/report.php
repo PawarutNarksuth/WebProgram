@@ -111,7 +111,10 @@
         
         <tr>
         <td>
-            <center><img src="images/<?php echo $_GET['pic_car']?>" style="width:170px;" ></center>
+            <center><img src="images/<?php echo $_GET['pic_car'];?>" style="width:170px;" ></center>
+            <?php
+             echo $_GET['pic_car'];
+            ?>
         </td>
         <td>
               <table border="1" align="center" width = "80%">
