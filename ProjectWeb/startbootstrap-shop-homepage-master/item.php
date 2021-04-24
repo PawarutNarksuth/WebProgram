@@ -176,10 +176,9 @@
     <div class="col-lg-4">
         <label>
             <div class="card" style="width:300px;">
-            <input type="radio" hidden name = "car_model" value="จักรยานแม่บ้าน" id="opt">
+            <input type="radio" hidden name = "car_model" value="จักรยานแม่บ้าน" id="opt" >
             <center>
             <img src="images/bikered.jpg" style="width:170px;">
-            <input type="text" name="pic_car" value="bikered.jpg" hidden>
             <div class="container">
                 <h4><b>จักรยานแม่บ้าน</b></h4>
                 <p>มีตะกร้าหรือเบาะนั่งเพิ่มเติม</p>
@@ -191,10 +190,9 @@
     <div class="col-lg-4">
         <label>
             <div class="card" style="width:300px;">
-            <input type="radio" hidden name = "car_model" value="จักรยานฟิกเกียร์" id="opt">
+            <input type="radio" hidden name = "car_model" value="จักรยานฟิกเกียร์" id="opt" >
             <center>
-            <img src="images/bikefic.png" style="width:210px;">
-            <input type="text" name="pic_car" value="bikefic.png" hidden>
+            <img src="images/bikefic.png" style="width:210px;" >
             <div class="container">
               <h4><b>จักรยานฟิกเกียร์</b></h4>
               <p>ขับเคลื่อนด้วยจานหน้าและเฟืองหลัง</p>
@@ -208,10 +206,9 @@
     <div class="col-lg-4">
         <label>
             <div class="card" style="width:300px;">
-            <input type="radio" hidden name = "car_model" value="จักรยานเสือหมอบ" id="opt" >
+            <input type="radio" hidden name = "car_model" value="จักรยานเสือหมอบ" id="opt">
             <center>
             <img src="images/bliketiger.jpg" style="width:170px;">
-            <input type="text" name="pic_car" value="bliketiger.jpg" hidden>
             <div class="container">
                 <h4><b>จักรยานเสือหมอบ</b></h4>
                 <p>ใช้งานบนถนนเรียบทำความเร็วได้ถึง 50-60 km/h</p>
@@ -287,7 +284,6 @@
                 <input type="radio" hidden name = "car_model" value="Eco Car" id="opt">
                 <center>
             <img src="images/eco.png" style="width:170px;">
-            <input type="text" name="pic_car" value="eco.png" hidden>
             <div class="container">
               <h4><b>Eco Car</b></h4>
               <p>รถยนต์ที่คำนึงถึงสิ่งแวดล้อม </p>
@@ -303,7 +299,6 @@
                 <input type="radio" hidden name = "car_model" value="Sedan" id="opt">
                 <center>
             <img src="images/sedan.png" style="width:170px;">
-            <input type="text" name="pic_car" value="sedan.png" hidden>
               <div class="container">
                 <h4><b>Sedan</b></h4>
                 <p>ดีไซด์สปอต โฉบเฉี่ยว คล่องแคล่ว</p>
@@ -320,7 +315,6 @@
                 <input type="radio" hidden name = "car_model" value="Luxury" id="opt">
                 <center>
             <img src="images/lux.png" style="width:170px;">
-            <input type="text" name="pic_car" value="lux.png" hidden>
             <div class="container">
               <h4><b>Luxury</b></h4>
               <p>รวดเร็ว เร่งตามใจสั่ง</p>
@@ -388,7 +382,6 @@
             <input type="radio" hidden name = "car_model" value="noncab" id="opt">
             <center>
                 <img src="images/noncap.png" style="width:170px;">
-                <input type="text" name="pic_car" value="noncap.png" hidden>
                 <div class="container">
                 <h4><b>noncab</b></h4>
                 <p>แรงไม่ตก บรรทุกเต็มพิกัด</p>
@@ -404,7 +397,6 @@
             <input type="radio" hidden name = "car_model" value="single cab" id="opt">
             <center>
             <img src="images/single.png" style="width:170px;">
-            <input type="text" name="pic_car" value="single.png" hidden>
               <div class="container">
                 <h4><b>single cab</b></h4>
                 <p>บรรทุกมากพร้อมโดยสาร</p>
@@ -421,7 +413,6 @@
             <input type="radio" hidden name = "car_model" value="double cab" id="opt">
             <center>
             <img src="images/double.png" style="width:170px;">
-            <input type="text" name="pic_car" value="double.png" hidden>
             <div class="container">
                 <h4><b>double cab</b></h4>
                 <p>โดยสารและบรรทุกในเวลาเดียวกัน</p>
@@ -489,7 +480,6 @@
         <input type="radio" hidden name = "car_model" value="cago var" id="opt">
           <center>
             <img src="images/cargo.png" style="width:170px;">
-            <input type="text" name="pic_car" value="cargo.png" hidden>
             <div class="container">
               <h4><b>cago var</b></h4>
               <p>เป็นรถประเภทขนของ เหมาะสำหรับขนของจำนวณมาก</p>
@@ -505,7 +495,6 @@
             <input type="radio" hidden name = "car_model" value="volkswagen" id="opt">
             <center>
             <img src="images/vw.png" style="width:170px;">
-            <input type="text" name="pic_car" value="vw.png" hidden>
               <div class="container">
                 <h4><b>volkswagen</b></h4>
                 <p>เป็นรถประเภทเที่ยวสบายๆรับชมบรรยากาศ</p>
@@ -522,7 +511,6 @@
             <input type="radio" hidden name = "car_model" value="alphard van" id="opt" >
             <center>
             <img src="images/al.png" style="width:170px;">
-            <input type="text" name="pic_car" value="al.png" hidden>
             <div class="container">
               <h4><b>alphard van </b></h4>
               <p>เป็นรภประเภทครอบครัว เหมาะสำหรับ 5-6 คน</p>
@@ -590,7 +578,6 @@
             <input type="radio" hidden name = "car_model" value="wave125i" id="opt">
             <center>
                 <img src="images/wave125.png" style="width:300px;">
-                <input type="text" name="pic_car" value="wave125.png" hidden>
                 <div class="container">
                 <h4><b>wave125i</b></h4>
                 <p>เป็นรถเกียร์ธรรมดาขับง่าย เหมาะแก่การเดินทางเรียบง่าย</p>
@@ -606,7 +593,6 @@
                 <input type="radio" hidden name = "car_model" value="pcx" id="opt">
                 <center>
                 <img src="images/pcx.png" style="width:200px;">
-                <input type="text" name="pic_car" value="pcx.png" hidden>
                     <div class="container">
                         <h4><b>pcx</b></h4>
                         <p>เกียร์ auto ขับก็สบายเบาะกว้างนั่งสบาย</p>
@@ -623,7 +609,6 @@
                 <input type="radio" hidden name = "car_model" value="msx" id="opt">
                 <center>
                 <img src="images/msx.png" style="width:300px;">
-                <input type="text" name="pic_car" value="msx.png" hidden>
                 <div class="container">
                     <h4><b>msx</b></h4>
                     <p>เป็นมอเตอร์ไซย์ประเภท เกียร์ครัช ดีซีย์โจบเฉี่ยวไวและเท่</p>
@@ -688,7 +673,6 @@
                 <input type="radio" hidden name = "car_model" value="standard minibus" id="opt">
                 <center>
                     <img src="images/mini1.png" style="width:170px;">
-                    <input type="text" name="pic_car" value="mini1.png" hidden>
                     <div class="container">
                     <h4><b>standard minibus</b></h4>
                     <p>เป็น minibus ขนาดเล็กเหมาะสำหรับ 6-7 คน</p>
@@ -704,7 +688,6 @@
                 <input type="radio" hidden name = "car_model" value="business minibus" id="opt">
                 <center>
                     <img src="images/mini2.png" style="width:170px;">
-                    <input type="text" name="pic_car" value="mini2.png" hidden>
                     <div class="container">
                     <h4><b>business minibus</b></h4>
                     <p>เหมาะสำหรับบริษัทหรือการขนส่งเพื่อสมนา</p>
@@ -720,7 +703,6 @@
                 <input type="radio" hidden name = "car_model" value="normal minibus" id="opt">
                 <center>
                     <img src="images/mini3.png" style="width:170px;">
-                    <input type="text" name="pic_car" value="mini3.png" hidden>
                     <div class="container">
                     <h4><b>normal minibus</b></h4>
                     <p>เป็นรถ minibus ขนาดกลางเหมาะสำหรับการเดินทาง การทัวร์ 10-13 คน</p>

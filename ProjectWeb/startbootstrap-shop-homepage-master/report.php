@@ -1,5 +1,6 @@
 <?php 
     session_start();
+    include('process_car_model.php');
     $user = @$_SESSION['user'];
     $ck = @$_SESSION['check'];
     $booking_no = rand();
@@ -111,10 +112,7 @@
         
         <tr>
         <td>
-            <center><img src="images/<?php echo $_GET['pic_car'];?>" style="width:170px;" ></center>
-            <?php
-             echo $_GET['pic_car'];
-            ?>
+            <center><img src="images/<?php echo $pic_car?>" style="width:170px;" ></center>
         </td>
         <td>
               <table border="1" align="center" width = "80%">
