@@ -658,6 +658,7 @@
     </div>
     <br>
     <center>
+      <input type="text" name="rate" value="500" hidden>
       <input type="submit" value="ยืนยัน">
     </center>  
     </div>
