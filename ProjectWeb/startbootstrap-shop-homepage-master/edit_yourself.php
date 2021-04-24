@@ -64,7 +64,7 @@
                     $result = mysqli_query($conn , $sql);
 
                     $cus = mysqli_fetch_array($result);
-                    echo '<tr> <td> Username : <div style=color:red;>(ไม่สามารถแก้ไขได้)</div> </td> <td> <input type=text value='.$cus[3].' name=user disabled></td value=> ';
+                    echo '<tr> <td> Username : <div style=color:red;>(ไม่สามารถแก้ไขได้)</div> </td> <td> <input disabled  type=text value='.$cus[3].'></td value=> ';
                     echo '<td> password : </td> <td> <input type=password name=pass value='.$cus[4].'></td> </tr>';
                     echo '<tr> <td> First Name : </td> 
                                 <td> <input type=text value='.$cus[1].' name=fname></td> 
