@@ -25,10 +25,10 @@
     mysqli_select_db($conn , $dbname) or die ("can't select departmentstore database");
 
     $sql = "INSERT INTO customer(email,F_name,L_name,username,pass,tel)
-            VALUES  ('$mail','$F_name' ,  '$L_name' , '$us' , '$pass' , '$tel')";
+                VALUES  ('$mail','$F_name' ,  '$L_name' , '$us' , '$pass' , '$tel')";
 
     mysqli_query($conn , $sql);
-
-    $conn->close();
-    header("location:index.php");
+    header("location:index.php");        
 ?>
+
+    
